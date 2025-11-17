@@ -1,0 +1,85 @@
+/* styles/styles.css - external stylesheet for the whole project */
+
+/* Type selectors (examples): body, header, nav, main, footer, h1, h2, p, ul, li, img, a */
+body {
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    /* font-family property */
+    margin: 0;
+    /* margin property */
+    color: #333;
+    /* color property */
+    line-height: 1.5;
+    background: #f8f9fb;
+}
+
+header {
+    padding: 20px;
+    /* padding property */
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+    display: flex;
+    gap: 12px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    background: #eef3ff;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    /* margin property used again for layout */
+    padding: 10px;
+}
+
+.breed-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* sizing property */
+    gap: 20px;
+}
+
+.breed-card {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.breed-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1,
+h2,
+h3 {
+    margin: 6px 0;
+}
+
+.footer {
+    padding: 12px;
+}
+
+#site-footer {
+    text-align: center;
+    padding: 14px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
